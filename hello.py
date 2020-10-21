@@ -1,4 +1,5 @@
-#print ("this should not print")
-print ("this should print")
-print ("hello", "colin","huddleston")
+dict = {"name":"John Doe", "age": 21,"net worth": 5213.4, "name" : "john"}
 
+print(type(dict))
+print(dict)
+print(dict["age"])
